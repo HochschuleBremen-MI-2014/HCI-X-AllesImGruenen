@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="./style.css" />
+		<script type="text/javascript" src="./script.js"></script>
+		<title>Alles im Grünen</title>
+	</head>
+	<body>
+		<div id="view">
+			<div class="innerview bg_fullpage intro" id="intro1" style="display:none">
+				<h1>Alles im Grünen</h1>
+				<div id="flower"></div>
+				<div class="button button-right" onclick="switchPage('intro2');">
+					<p>Weiter &rarr;</p>
+				</div>
+			</div>
+			
+			<div class="innerview bg_fullpage intro" id="intro2" style="display:none">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+				<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+				<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+				<div class="button button-left" onclick="switchPage('intro1');">
+					<p>&larr; Zur&uuml;ck</p>
+				</div>
+				<div class="button button-right" onclick="switchPage('intro3');">
+					<p>Weiter &rarr;</p>
+				</div>
+			</div>
+			
+			<div class="innerview bg_fullpage intro" id="intro3" style="display:none">
+				<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+				<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+				<p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim...</p>
+				<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+				<div class="button button-left" onclick="switchPage('intro2');">
+					<p>&larr; Zur&uuml;ck</p>
+				</div>
+				<div class="button button-right" onclick="switchPage('intro4');">
+					<p>Weiter &rarr;</p>
+				</div>
+			</div>
+			
+			<div class="innerview bg_fullpage intro" id="intro4" style="display:none">
+				<p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+				<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+				<p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus...</p>
+				<p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh...</p>
+				<div class="button button-left" onclick="switchPage('intro3');">
+					<p>&larr; Zur&uuml;ck</p>
+				</div>
+				<div class="button button-right">
+					<p>Weiter &rarr;</p>
+				</div>
+			</div>
+			
+			<div class="innerview" id="overview">
+				<div class="titlebar">
+					<p>
+						<span class="button-left">&#x2770;</span>
+						Title
+						<span class="button-right">&#x270E;</span>
+					</p>
+				</div>
+				<div class="addbutton">&#x271A;</div>
+				<p>Keine Pflanzen bis jetzt...<br />Füge eine mit dem &#x271A; hinzu!</p>
+			</div>
+			
+			
+		</div>
+	</body>
+</html>

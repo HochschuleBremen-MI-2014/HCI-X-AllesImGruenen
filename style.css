@@ -1,0 +1,113 @@
+body {
+	background-color: black;
+	font-family: Verdana,​Helvetica,​Arial,​sans-serif;
+}
+
+#view {
+	position: relative;
+	background-color: white;
+	margin: 1em auto;
+	width: 16em;
+	height: 27em;
+	padding: 0;
+}
+
+.innerview {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.bg_fullpage {
+	background-image: url(img/bg_fullpage.jpg);
+	background-size: cover;
+	color: #000;
+}
+
+.intro h1 {
+	margin: 1em 0;
+	text-align: center;
+	font-size: 3em;
+}
+
+.intro p {
+	margin: 0.7em;
+}
+
+.intro #flower {
+	background-image: url(img/flower.png);
+	background-size: cover;
+	width: 10em;
+	height: 10em;
+	margin: 0.5em auto;
+}
+
+.intro .button {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	height: 2em;
+	width: 49%;
+	background-color: rgba(127, 127, 127, .5);
+}
+
+.intro .button-left {
+	left: 0;
+	float: left;
+}
+
+.intro .button-right {
+	right: 0;
+	float: right;
+}
+
+.intro .button p {
+	margin: 0;
+}
+
+.innerview .titlebar {
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #090;
+	font-size: 1.4em;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: .3em 0;
+}
+
+.innerview .titlebar p {
+	margin: 0 0.3em;
+}
+
+.innerview .titlebar p .button-right {
+	float: right;
+	margin: 0;
+	padding: 0 .3em;
+	font-size: .9em;
+}
+
+.innerview .titlebar p .button-left {
+	float: left;
+	margin: 0;
+	padding: 0 .3em;
+	font-size: .9em;
+}
+
+.innerview .addbutton {
+	position: absolute;
+	bottom: .7em;
+	right: .7em;
+	height: 1.7em;
+	width: 2em;
+	font-size: 1.4em;
+	border-radius: 1em;
+	background-color: #090;
+	padding: 0.3em 0 0;
+	text-align: center;
+	color: #fff;
+	box-shadow: 2px 2px 5px #030;
+}
